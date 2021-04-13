@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{border-bottom: 1px solid rgb(202, 197, 197);
+}
+.headerContent{
+    width: 90%;
+    margin-left: 5%;
+    overflow: hidden;
+}
+.logo{
+    width: 17%;
+    float: left;
+    padding-top: 4px;
+}
+.logo img {
+    width: 40%;
+}
+nav{
+    float:right;
+    width: 30%;
+    padding-top: 15px;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    margin-right: 29px;
+    font-size: 20px;
+    text-transform:capitalize ;
+}
+.content{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+   
+}
+.content h1{
+    text-align: center;
+    color: #007EFF;
+    font-size:50px;
+    
+}
+.content p{
+    color: rgb(110, 110, 110);
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.content img{
+    width: 64%;
+    margin-top:30px;
+}
+.content h1:first-child{
+    color:#0F2656;
+    margin-top: 50px;
+}
+.mainContent{
+    overflow: hidden;
+    
+
+}
+.leftContent{
+    width: 48%;
+    float: left;
+ 
+}
+.leftContent h1{
+    text-align: right;
+    color: red !important;
+
+}
+.leftContent p{
+    text-align: right;
+    margin: 5px;
+
+}
+.rightContent{
+    width: 47%;
+    float: right;
+
+}
+.rightContent h1{
+    text-align: left;
+
+}
+.ContentImg{
+    width: 60%;
+    margin-left: 34%;
+    text-align: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.leftImg{
+
+    text-align: center;
+    float: left;
+    
+}
+.CenterImg{
+    text-align: center;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+
+
+}
+.RightImg{
+    text-align: center;
+    float: left;
+
+}
+footer{
+    background-color:#007EFF ;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 28px;
+}
